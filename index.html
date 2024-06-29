@@ -29,7 +29,7 @@
 
       <div class="search">
         <input type="text" placeholder="Search" />
-        <a href="#"><i data-feather="search"></i></a>
+        <a href="#"><ion-icon name="search"></ion-icon></a>
       </div>
     </nav>
 
@@ -66,18 +66,45 @@
             efektif. Dengan metode belajar online, Anda bisa belajar kapanpun
             dan dimanapun Anda mau.
           </h5>
-          <!--  <img src="./img/phone.png" alt="bannner image" class="about_us-img" />  -->
+          <div class="btn-container">
+            <button class="button">Lihat Selengkapnya</button>
+          </div>
+          <!-- <img src="./img/phone.png" alt="bannner image" class="about_us-img" /> -->
         </div>
       </section>
 
-      <section class="section features" id="feature">
-        <div class="feature">
-          <h1 class="feature-title">Features</h1>
-          <h5>
-            Kami di Word Wizard adalah teman setia bagi para pengguna dalam
-            belajar bahasa. Kami mengajak Anda untuk masuk kedalam petualangan
-            yang menakjubkan dengan pendekatan inovatif dan penuh kasih.
-          </h5>
+      <section class="section" id="feature">
+        <div class="container">
+          <h2 class="feature">Our Feature</h2>
+          <div class="card-body">
+            <div class="feature-card">
+              <img class="feature-image" src="./img/bahasa.png" />
+              <h3 class="text">Kelas Bahasa</h3>
+              <p class="text-deskripsi">
+                Langkah yang tepat untuk memperdalam pemahaman dan keterampilan
+                Anda dalam bahasa asing.
+              </p>
+              <button class="btn-feature">Cek Sekarang</button>
+            </div>
+            <div class="feature-card">
+              <img class="feature-image" src="./img/musik.png" />
+              <h3 class="text">Belajar dengan Musik</h3>
+              <p class="text-deskripsi">
+                Musik menjadi bagian dari cara belajar bahasa asing dengan mudah
+                dan menyenangkan untuk sehari-hari.
+              </p>
+              <button class="btn-feature">Cek Sekarang</button>
+            </div>
+            <div class="feature-card">
+              <img class="feature-image" src="./img/leaderboard.png" />
+              <h3 class="text">Leaderboards</h3>
+              <p class="text-deskripsi">
+                Anda dapat menjadi nomor satu dalam liga bahasa asing dengan
+                orang-orang dari seluruh dunia.
+              </p>
+              <button class="btn-feature">Cek Sekarang</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -99,5 +126,7 @@
     <script>
       feather.replace();
     </script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
