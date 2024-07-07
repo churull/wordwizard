@@ -400,6 +400,7 @@ h2.feature {
 @media (max-width: 767px) {
   .navbar {
     flex-direction: column;
+     position: relative;
   }
 
   .navbar .navbar-nav a {
