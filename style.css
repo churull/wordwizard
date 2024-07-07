@@ -160,6 +160,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   background-color: var(--bg);
   color: #fff;
 }
@@ -168,6 +169,7 @@ body {
   background-color: #6da53c;
   border-radius: 30px;
   width: 85%;
+  height: 65%;
   margin-top: 50px;
 }
 
@@ -393,5 +395,70 @@ h2.feature {
 
   .feature-card {
     width: 220px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar .navbar-nav a {
+    margin: 0.5rem 0;
+    font-size: 18px;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-info-title {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+
+  .btn {
+    width: 240px;
+    height: 35px;
+  }
+
+  .about_us {
+    width: 95%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .about_us-title {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .about_us-deskripsi {
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .container {
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+
+  h2.feature {
+    font-size: 1.5rem;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+
+  .feature-card {
+    width: 180px;
+  }
+
+  .feature-image {
+    height: 150px;
   }
 }
