@@ -98,29 +98,6 @@ body {
   color: var(--primary);
 }
 
-/* Media Quaries */
-
-/* Laptop */
-@media (max-width: 1366px) {
-  html {
-    font-size: 75%;
-  }
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-  html {
-    font-size: 62,5%;
-  }
-}
-
-/* Mobile */
-@media (max-width: 450px) {
-  html {
-    font-size: 55%;
-  }
-}
-
 /* Banner */
 .banner {
   display: flex;
@@ -349,4 +326,139 @@ h2.feature {
   margin-right: 11px;
   margin-left: 11px;
   cursor: pointer;
+}
+
+/* Desktop Large Screens */
+@media (min-width: 1200px) {
+  .navbar .navbar-nav a {
+    margin: 0 3rem;
+    font-size: 26px;
+  }
+
+  .banner-info-title {
+    font-size: 3rem;
+    padding-left: 100px;
+    padding-right: 200px;
+  }
+
+  .btn {
+    width: 300px;
+    height: 50px;
+  }
+
+  .about_us-title {
+    font-size: 50px;
+  }
+
+  .about_us-deskripsi {
+    font-size: 22px;
+  }
+
+  h2.feature {
+    font-size: 2.5rem;
+  }
+
+  .feature-card {
+    width: 280px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .navbar .navbar-nav a {
+    margin: 0 1.5rem;
+    font-size: 22px;
+  }
+
+  .banner-info-title {
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-right: 120px;
+  }
+
+  .btn {
+    width: 260px;
+    height: 40px;
+  }
+
+  .about_us-title {
+    font-size: 40px;
+  }
+
+  .about_us-deskripsi {
+    font-size: 18px;
+  }
+
+  h2.feature {
+    font-size: 2rem;
+  }
+
+  .feature-card {
+    width: 220px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar .navbar-nav a {
+    margin: 0.5rem 0;
+    font-size: 18px;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-info-title {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+
+  .btn {
+    width: 240px;
+    height: 35px;
+  }
+
+  .about_us {
+    width: 95%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .about_us-title {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .about_us-deskripsi {
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .container {
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+
+  h2.feature {
+    font-size: 1.5rem;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+
+  .feature-card {
+    width: 180px;
+  }
+
+  .feature-image {
+    height: 150px;
+  }
 }
